@@ -58,5 +58,5 @@ def filtreli_tablo(secili_kisiler, secili_sutunlar):
     )
     return tablo
 
-if __name__ == "__main__":
-    server = app.server 
+if __name__ == '__main__':
+    app.run_server(host='0.0.0.0', port=8000, debug=False)
